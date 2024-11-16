@@ -1,0 +1,241 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height:740px;
+    background:url("D:/Accord infomatrix/B images/images/Hbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:white;
+    padding:20px;
+    text-shadow: white;
+}   
+
+.header h1 {
+    font-family: cursive;
+    font-size: 4rem;;
+}
+
+.header p {
+    font-family: cursive;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+/*navigation*/
+.menu-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.menu-icon span {
+    display:block;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Navbar (hidden by default) */
+.navbar {
+    display: none;
+    text-align: right;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    background-color: #F9B9DE;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0.5rem 0;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* Hidden Checkbox */
+#menu-toggle {
+    display: none;
+}
+
+/* Show the Navbar when checkbox is checked */
+#menu-toggle:checked + .menu-icon + .navbar {
+    display: block;
+}
+
+
+/* About Section */
+.about-section {
+    height: 680px;
+    margin-top: 5px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #fc0356;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1rem;
+    font-family: cursive;
+    font-size: 1.1rem;
+    color:black;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.content{
+    display: flex;
+    margin-top: 15px;
+}
+.box1,.box2,.box3{
+    height:500px;
+    width: 33%;
+    text-align: center;
+    padding: 90px;
+    margin-right: 2px;
+}
+.box3{
+    margin-right: 0;
+}
+.box2 img{
+    width: 320px;
+    height: 320px;
+
+}
+.info-box {
+    padding: 8px;
+    text-align: center;
+}
+
+.info-box h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/* Products Section */
+.products-section {
+    background-color:#ecf6f5;
+    padding: 2rem;
+    text-align: center;
+}
+
+.products-section h2 {
+    color:  #fc0356;
+    font-family:cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.productbox{
+    width: 1050px;
+    background-color: white;
+    padding: 25px;
+    align-items: center;
+}
+
+.product-grid1 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.product-grid2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.product-grid3 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product {
+    text-align: center;
+    width: 300px;
+}
+
+.product img {
+   
+    width: 250px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-family: cursive;
+    color: #fc0356;
+    margin: 0.5rem 0;
+}
+
+.product p {
+    font-family:cursive ;
+    font-size: 1rem;
+    color: black;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.contact-section h2 {
+    color:  #fc0356;
+    font-family: cursive;
+     font-size: 2rem;
+     font-weight: bolder;
+     margin-bottom: 1rem;
+}
+
+.contact-section p {
+    font-family: cursive;
+    font-size: 1rem;
+    color:black;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color:  #fc0356;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+.footer p {
+    font-size: 0.8rem;
+}
